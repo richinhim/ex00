@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<!-- 
+    <typeAliases>
+        <typeAlias alias="search" type="com.siteAdmin.common.entity.Search" />
+    	<typeAlias alias="loginVO" type="com.siteAdmin.admins.entity.LoginVO" />
+    	<typeAlias alias="admins" type="com.siteAdmin.admins.entity.Admins" />
+    	<typeAlias alias="boards" type="com.siteAdmin.boards.entity.Boards" />
+    	<typeAlias alias="banners" type="com.siteAdmin.banners.entity.Banners" />
+    	<typeAlias alias="common_code" type="com.siteAdmin.common_code.entity.Common_code" />
+    	<typeAlias alias="file_datas" type="com.siteAdmin.file_datas.entity.File_datas" />
+    	
+    </typeAliases>
+	<mappers>
+		<package name="com.siteAdmin.users.mapper" />
+		<package name="com.siteAdmin.admins.mapper" />
+		<package name="com.siteAdmin.common.mapper" />
+		<package name="com.siteAdmin.boards.mapper" />
+		<package name="com.siteAdmin.banners.mapper" />
+		<package name="com.siteAdmin.file_datas.mapper" />
+		
+   </mappers>
+   --> 
+</configuration>
+
