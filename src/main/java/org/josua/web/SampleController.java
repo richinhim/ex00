@@ -1,8 +1,10 @@
 package org.josua.web;
 
+import org.josua.domain.ProductVO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -39,5 +41,20 @@ public class SampleController {
 		
 		logger.info("doC called......................");
 		return "result";
+	}
+	
+	
+	@RequestMapping("doD")
+	public String doD(Model model) {
+		
+		
+		ProductVO product = new ProductVO("Sample Product", 10000);
+		
+		logger.info("doD");
+		
+		model.addAttribute(product);
+		
+		
+		return "productDetail";
 	}
 }
